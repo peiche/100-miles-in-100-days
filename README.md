@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b367f611-7ce9-46e1-9f7c-4b09cfcbf019/deploy-status)](https://app.netlify.com/sites/100-miles-in-100-days/deploys)
+
 # 100 Miles in 100 Days
 
 Disclaimer: I built this as a quick and dirty alternative to printing out a sheet and physically checking off a number of boxes.
