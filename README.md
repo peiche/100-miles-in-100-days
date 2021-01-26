@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# 100 Miles in 100 Days
+
+Disclaimer: I built this as a quick and dirty alternative to printing out a sheet and physically checking off a number of boxes.
+
+The Badgerland Striders running group has, from the end of January to the beginning of May, a "100 miles in 100 days" run/walk challenge. They provided a PDF of a 10x10 grid of checkboxes. I have replicated that grid on a website.
+
+The name text field is editable. Each checkbox is clickable. This website has no analytics, nothing is sent to me or anyone else. The information is only saved on your computer. (This also means that if you open this website on your laptop and your phone, the information cannot be shared between them.)
+
+This website was written in React with the CodyFrame CSS framework.
+
+----
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
