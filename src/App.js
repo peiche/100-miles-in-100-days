@@ -53,7 +53,7 @@ class App extends Component {
     domtoimage.toBlob(document.getElementById('main'), {
       bgcolor: '#ffffff',
     }).then(function (blob) {
-      saveAs(blob, 'my-node.png');
+      saveAs(blob, '100-miles.png');
     });
   }
 
@@ -66,15 +66,16 @@ class App extends Component {
             <h1 className="text-center">100 Miles in 100 Days</h1>
             <h2 className="text-center">January 23 to May 2, 2021</h2>
 
-            <div className="flex items-center margin-y-sm">
-              <label htmlFor="name" className="margin-right-xxs text-bold">Name:</label>
+            <div className="margin-y-sm">
+              <label htmlFor="name" className="form-label margin-bottom-xxs text-bold">Name:</label>
               <input 
-                  className="form-control flex-grow" 
+                  className="form-control width-100%" 
                   type="text" 
                   name="name" 
                   id="name" 
                   onChange={event => this.setState({ name: event.target.value })}
                   value={this.state.name}
+                  autoComplete="off"
                   />
             </div>
 
@@ -104,9 +105,12 @@ class App extends Component {
             <p className="color-error text-center margin-top-md">Sponsored by the Badgerland Striders!</p>
           </div>
         </div>
-        <div className="container max-width-sm margin-y-md">
-          <p className="text-center">
+        <div className="container max-width-sm">
+          <p className="text-center margin-y-md">
             <button className="btn btn--primary" onClick={this.generateImage}>Download</button>
+          </p>
+          <p className="text-center margin-y-md">
+            Built with love and coffee by <a href="https://boldoak.design">Paul Eiche</a>. View the source <a href="https://github.com/peiche/100-miles-in-100-days">here</a>.
           </p>
         </div>
       </div>
