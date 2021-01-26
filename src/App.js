@@ -105,13 +105,18 @@ class App extends Component {
             <p className="color-error text-center margin-top-md">Sponsored by the Badgerland Striders!</p>
           </div>
         </div>
-        <div className="container max-width-sm">
-          <p className="text-center margin-y-md">
-            <button className="btn btn--primary" onClick={this.generateImage}>Download</button>
-          </p>
-          <p className="text-center margin-y-md">
-            Built with love and coffee by <a href="https://boldoak.design">Paul Eiche</a>. View the source <a href="https://github.com/peiche/100-miles-in-100-days">here</a>.
-          </p>
+        <div className="container max-width-sm text-center margin-y-md">
+          <div className="text-component">
+            <p>
+              Download your grid 👇
+            </p>
+            <p>
+              <button className="btn btn--primary" onClick={this.generateImage}>Download</button>
+            </p>
+            <p className="text-sm">
+              Built with love and coffee by <a href="https://boldoak.design">Paul Eiche</a>. View the source <a href="https://github.com/peiche/100-miles-in-100-days">here</a>.
+            </p>
+          </div>
         </div>
       </div>
     );
